@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Test"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "inc",
+                "inc/config"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "inc",
+                    "inc/config"
+                ]
+            },
+            "defines": [
+                "DUMMY"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cppStandard": "c++14",
+            "compilerPath": "gcc",
+            "compilerArgs": [
+                "-include project.h"
+            ]
+        }
+    ],
+    "version": 4
+}
